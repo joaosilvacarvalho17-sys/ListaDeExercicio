@@ -39,3 +39,13 @@ if(idade < 12){
     console.log("Adulto");
 }
 //Criar um Programa que mostre qual tipo de triãngulo de acordo com seus lados (equilátero, isósceles ou escaleno)
+let lado1 = 5;
+let lado2 = 5;
+let lado3 = 5;
+if(lado1 === lado2 && lado2 === lado3){
+    console.log("Triângulo Equilátero");
+} else if(lado1 === lado2 || lado1 === lado3 || lado2 === lado3){
+    console.log("Triângulo Isósceles");
+} else{
+    console.log("Triângulo Escaleno");
+}
